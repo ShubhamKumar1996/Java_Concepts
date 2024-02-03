@@ -9,7 +9,7 @@ public class Main {
          */
         Jeans levisJeans = new Jeans("Levis", 3000);
         Jeans pepeJeans = new Jeans("Pepe");
-        Jeans casualJeans = new Jeans(800);
+        Jeans casualJeans = Jeans.createJeans();
         System.out.println(levisJeans.to_string());
         System.out.println(pepeJeans.to_string());
         System.out.println(casualJeans.to_string());
