@@ -5,6 +5,13 @@ public class Wearables {
     private String brandName;
     private double price;
 
+    {
+        // Init block: Executed before any other constructor
+        System.out.println("Inside init block");
+        this.productType = "";
+        this.brandName = "";
+        this.price = 0;
+    }
     Wearables(String productType, String brandName, double price) {
         this.productType = productType;
         this.brandName = brandName;
